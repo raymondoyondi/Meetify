@@ -36,6 +36,35 @@ Ensure you have the following installed:
    git clone [https://github.com/raymondoyondi/Meetify.git](https://github.com/raymondoyondi/Meetify.git)
    cd Meetify
 
+2. **Install dependencies:**
+   ```
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables:**
+Create a `.env.local` file in the root directory and add your credentials from Clerk and GetStream:
+   ```
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   CLERK_SECRET_KEY=
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+   NEXT_PUBLIC_STREAM_API_KEY=
+   STREAM_SECRET_KEY=
+   ```
+
+4. **Run the development server:**
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. **Open the app:**
+Open `http://localhost:3000` in your browser to see the result.
+
 # Project Structure
 
 This project uses the [Next.js App Router](https://nextjs.org) structure with a clear separation of concerns to maintain organization and scalability.
