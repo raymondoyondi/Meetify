@@ -38,7 +38,7 @@ const MobileNav = () => {
             </SheetDescription>
           </SheetHeader>
 
-          <Link href={"/"} className="flex items-center gap-1">
+          <Link href={"/dashboard"} className="flex items-center gap-1">
             <Image
               src={"/icons/logo.svg"}
               width={32}
