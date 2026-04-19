@@ -1,5 +1,5 @@
 # Meetify 🎥
-### The Enterprise-Ready Video Infrastructure for Modern Teams.
+## The Enterprise-Ready Video Infrastructure for Modern Teams.
 
 Meetify is a modern, enterprise-ready video conferencing application built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**. It leverages the **Stream Video SDK** to provide a scalable, low-latency, and high-quality communication experience.
 
