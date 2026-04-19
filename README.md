@@ -1,5 +1,6 @@
-# Meetify 🎥
-## The Enterprise-Ready Video Infrastructure for Modern Teams.
+# Meetify 🎥 - The Enterprise-Ready Video Infrastructure for Modern Teams.
+
+<img width="1484" height="715" alt="Screenshot 2026-04-18 8 43 49 PM" src="https://github.com/user-attachments/assets/499eb00e-78ec-498d-af2a-8992b39bce97" />
 
 Meetify is a modern, enterprise-ready video conferencing application built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**. It leverages the **Stream Video SDK** to provide a scalable, low-latency, and high-quality communication experience.
 
