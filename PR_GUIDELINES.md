@@ -19,7 +19,7 @@ In order to give everyone a chance to submit a pull request and contribute to th
 ## Pull Requests and Issues
 
 1. Do not start working on any open issue and raise a PR unless the issue is assigned to you. PRs that don't meet these guidelines will be closed.
-1. Pull requests must be based on [open issues](https://github.com/raymondoyondi/Meetify/issues) available.
+1. Pull requests must be based on [open issues](https://github.com/getmeetify/Meetify/issues) available.
 1. [Use this method to automatically close the issue when the PR is completed.](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue)
 
 ## Linting and Formatting
