@@ -7,8 +7,6 @@ import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import { useUser } from '@clerk/nextjs';
 
-import { SignOutButton } from '@clerk/nextjs'
-
 const Sidebar = () => {
     const pathName = usePathname();
     const { isSignedIn } = useUser();
@@ -34,7 +32,6 @@ const Sidebar = () => {
                                 </Link>
                             )
                         })}
-                        {/* <SignOutButton/> */}
                     </div>
                 </section>
             }
