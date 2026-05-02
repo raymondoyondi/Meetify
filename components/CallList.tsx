@@ -32,7 +32,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
       case 'upcoming':
         return 'No Upcoming Calls';
       case 'recordings':
-        return 'No Recordings';
+        return 'No Recordings found';
       default:
         return '';
     }
@@ -99,7 +99,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
           />
         ))
       ) : (
-        <h1 className="text-2xl font-bold text-white">{noCallsMessage}</h1>
+        <h1 className="text-xl font-[500] text-center text-white">{noCallsMessage}</h1>
       )}
     </div>
   );

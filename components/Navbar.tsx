@@ -14,7 +14,12 @@ const Navbar = () => {
       <div className='flex-between gap-5 flex'>
         {/* Clerk Auth */}
         <SignedIn>
-          <UserButton/>
+          <UserButton
+            appearance={{
+              elements: {
+                userButtonPopoverActionButton: 'hover:bg-[#7777] hover:text-[#fff] focus:bg-[#7777] focus:text-[#fff] transition-all duration-250',
+              }
+            }}/>
         </SignedIn>
         <MobileNav/>
       </div>

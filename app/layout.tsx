@@ -33,7 +33,14 @@ export default function RootLayout({
         colorPrimary: "#7C3AED",
         colorBackground: "#1C1F2E",
         colorInputBackground: "#252a41",
-        colorInputText: "#fff"
+        colorInputText: "#fff",
+        colorTextSecondary: "#fff",
+        colorTextOnPrimaryBackground: "#fff",
+      },
+      elements: {
+        alternativeMethodsBlockButtonText: "text-white",
+        alternativeMethodsBlockButton: "text-white hover:bg-[#4447] transition-all duration-250",
+        
       }
     }}>
       <html lang="en">
